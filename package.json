@@ -1,5 +1,6 @@
 {
 	"type": "module",
+	"sideEffects": false,
 	"name": "@intrnl/cssom-utils",
 	"description": "Utilities for working with CSS in JS",
 	"version": "0.1.0",
