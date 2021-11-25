@@ -1,14 +1,4 @@
-export class CSSUnitValue {
-	constructor (value, unit) {
-		this.value = Number(value);
-		this.unit = unit;
-	}
-
-	toString () {
-		return `${this.value}${this.unit}`;
-	}
-}
-
+const create = (unit) => (value) => `${Number(value)}${unit}`;
 
 export const number = create('');
 export const percent = create('%');
@@ -39,8 +29,3 @@ export const dpi = create('dpi');
 export const dpcm = create('dpcm');
 export const dppx = create('dppx');
 export const fr = create('fr');
-
-
-function create (unit) {
-	return (value) => new CSSUnitValue(value, unit);
-}
