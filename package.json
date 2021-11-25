@@ -1,0 +1,15 @@
+{
+	"type": "module",
+	"name": "@intrnl/cssom-utils",
+	"description": "Utilities for working with CSS in JS",
+	"version": "0.1.0",
+	"author": "intrnl",
+	"license": "MIT",
+	"repository": {
+		"url": "https://github.com/intrnl/cssom-utils"
+	},
+	"files": [
+		"src/"
+	],
+	"main": "src/index.js"
+}
