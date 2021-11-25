@@ -33,6 +33,7 @@ export const mul = create('*', CSSCalcValue, (accu, next) => accu * next);
 
 export const min = create('min', CSSMathValue, Math.min);
 export const max = create('max', CSSMathValue, Math.max);
+export const minmax = (...values) => new CSSMathValue(values, 'minmax');
 
 
 function create (op, product, reducer) {
