@@ -3,7 +3,7 @@
 	"sideEffects": false,
 	"name": "@intrnl/cssom-utils",
 	"description": "Utilities for working with CSS in JS",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"author": "intrnl",
 	"license": "MIT",
 	"repository": {
