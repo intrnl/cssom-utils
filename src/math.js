@@ -6,6 +6,8 @@ export const sub = createCalc('-');
 export const div = createCalc('/');
 export const mul = createCalc('*');
 
+export const neg = (value) => mul(value, -1);
+
 export const min = createMath('min');
 export const max = createMath('max');
 export const minmax = createMath('minmax');
